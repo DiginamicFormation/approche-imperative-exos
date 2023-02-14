@@ -2,10 +2,9 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.diginamic</groupId>
+	<groupId>fr.diginamic</groupId>
 	<artifactId>approche-imperative-exos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-
 
 	<properties>
 		<java.version>11</java.version>
@@ -30,6 +29,13 @@
 
 
 	<dependencies>
+		<dependency>
+		    <groupId>fr.diginamic</groupId>
+		    <artifactId>outillage-check-exercices</artifactId>
+		    <version>0.0.1-SNAPSHOT</version>
+		    <scope>test</scope>
+		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -44,6 +50,7 @@
 			<version>4.13.2</version>
 			<scope>test</scope>
 		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest -->
 		<dependency>
 			<groupId>org.hamcrest</groupId>
